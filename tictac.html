@@ -1,48 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic - Tac - Toe</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    <div class="bkgrnd">
-        <div>
-            <p class="winner">Winner</p>
-        </div>
-
-        <div>
-            <h1 class="game-head">Tic Tac Toe</h1>
-
-            <div id="container">
-            
-                <div>
-                <button class="btn-1">X</button>
-                <button class="btn-1">O</button>
-                <button class="btn-1">X</button>
-                </div>
-            
-                <div>
-            <button class="btn-1">O</button>
-            <button class="btn-1">X</button>
-            <button class="btn-1">X</button>
-                </div>
-            
-                <div>
-            <button class="btn-1">X</button>
-            <button class="btn-1">O</button>
-            <button class="btn-1">O</button>
-                </div>
-            
-            </div>
-        
-            <div>
-                <button class="start-reset-button">New Game</button>
-                <button class="start-reset-button">Reset Game</button>
-            </div>
-        </div>
+    <div class="msgContainer">
+        <p id="msg">WINNER</p>
+        <button id="newGame">NEW GAME</button>
     </div>
+    <main>
+        <h1>TIC - TAC - TOE GAME</h1>
+        <div id="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset">RESET GAME</button>
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
